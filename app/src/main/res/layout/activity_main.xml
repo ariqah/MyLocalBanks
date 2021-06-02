@@ -4,28 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3E5F5"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/list_statement"
+        android:textSize="17.5dp" />
 
     <TextView
         android:id="@+id/textViewDbs"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="@string/dbs" />
+        android:background="#D5DD4848"
+        android:gravity="center"
+        android:text="@string/dbs"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textViewOcbc"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="7dp"
         android:layout_weight="1"
-        android:text="@string/ocbc" />
+        android:background="#C6C1B547"
+        android:gravity="center"
+        android:text="@string/ocbc"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textViewUob"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="7dp"
         android:layout_weight="1"
-        android:text="@string/uob" />
+        android:background="#C63F51B5"
+        android:gravity="center"
+        android:text="@string/uob"
+        android:textSize="20sp" />
 
 </LinearLayout>

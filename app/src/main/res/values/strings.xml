@@ -3,4 +3,6 @@
     <string name="dbs">DBS</string>
     <string name="ocbc">OCBC</string>
     <string name="uob">UOB</string>
+    <string name="list_statement">The following are available banks near you:</string>
+    <string name="welcome">Welcome!</string>
 </resources>
